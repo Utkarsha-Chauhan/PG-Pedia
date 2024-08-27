@@ -1,0 +1,130 @@
+.viewTopics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.viewTopics h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    margin-top: 150px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.viewTopics h1 button{
+    /* width: 100%; */
+    padding:  10px 20px;
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.viewTopics ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.viewTopics ul li {
+    padding: 1rem;
+    background-color: var(--secondary-color);
+    color: var(--on-primary-color);
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+
+.viewTopics ul li p {
+    font-size: 1.5rem;
+    color: var(--on-primary-color);
+    margin-bottom: 1rem;
+}
+
+.viewTopics ul li .left{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+
+.viewTopics ul li .right{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.viewTopics ul li .right button{
+    width: 100%;
+    padding:  10px 20px;
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.viewTopics ul li .right button:hover{
+    background-color: var(--on-primary-color);
+    color: var(--primary-color);
+}
+
+.viewTopics ul li .right input{
+    width: 100%;
+    padding:  10px 20px;
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+}
+
+.viewTopics ul li .right input:hover{
+    background-color: var(--on-primary-color);
+    color: var(--primary-color);
+}
+
+.viewTopics ul li .right a{
+    width: 100%;
+    padding:  10px 20px;
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+
+.viewTopics ul li .right a:hover{
+    background-color: var(--on-primary-color);
+    color: var(--primary-color);
+}
+
+.viewTopics ul li .right p{
+    width: 100%;
+    font-size: 1.5rem;
+    color: var(--on-primary-color);
+    margin-bottom: 1rem;
+}
+

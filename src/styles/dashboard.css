@@ -1,0 +1,99 @@
+@import url("./theme.css");
+
+.dashboard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.dashboard h2 {
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+
+
+    margin-bottom: 1.1rem;
+}
+
+.dashboard h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.dashboard p {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+    max-width: 700px;
+}
+
+.dashboard p span {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+
+.dashboard h3 {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+    margin-bottom: 1rem;
+}
+
+.dashboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.dashboard ul li {
+    background: var(--secondary-color);
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+
+
+
+
+.dashboard ul li a {
+    width: 100%;
+    color: var(--on-secondary-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+}
+
+.dashboard ul li:hover {
+    color: var(--on-primary-color);
+    background: var(--primary-color);
+    border-radius: 5px;
+}
+
+
+.dashboard ul li img {
+    /* width: 100px; */
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}

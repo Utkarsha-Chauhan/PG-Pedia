@@ -1,0 +1,89 @@
+.submitForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--background-color);
+  }
+  
+  .submit-dissertation {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    /* border: 1px solid var(?--primary-color); */
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--on-secondary-color);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .submit-dissertation h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--on-secondary-color);
+  }
+  
+  .submit-dissertation form {
+    display: flex;
+    flex-direction: column;
+    /* background: #000; */
+  }
+  
+  .submit-dissertation select,
+  .submit-dissertation input,
+  .submit-dissertation textarea,
+  .submit-dissertation button {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    background-color: var(--background-color);
+    color: var(--on-background-color);
+    font-size: 16px;
+  }
+  
+  .submit-dissertation select:focus,
+  .submit-dissertation input:focus,
+  .submit-dissertation textarea:focus,
+  .submit-dissertation button:focus {
+    outline: none;
+    border-color: var(--secondary-color);
+  }
+  
+  .submit-dissertation button {
+    background-color: var(--secondary-color);
+    color: var(--on-secondary-color);
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-dissertation button:disabled {
+    background-color: var(--primary-color);
+    cursor: not-allowed;
+  }
+  
+  .submit-dissertation button:hover:not(:disabled) {
+    background-color: var(--primary-color);
+    color: var(--on-primary-color);
+  }
+  
+  .submit-dissertation .error {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  @media (max-width: 600px) {
+    .submit-dissertation {
+      padding: 15px;
+    }
+  
+    .submit-dissertation input,
+    .submit-dissertation select,
+    .submit-dissertation textarea,
+    .submit-dissertation button {
+      padding: 8px;
+      font-size: 14px;
+    }
+  }
+  

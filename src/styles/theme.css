@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f5;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--background-color);
+}
+
+/* theme colors set primery ... */
+:root{
+    --background-color:  #DED4E8; /* Background color */
+    /* on Background color */
+    --on-background-color: #000000; /* On background color */
+    --primary-color: rgb(0, 0, 0); /* Primary color */
+    --on-primary-color: #f5f0e1; /* On primary color */
+    --secondary-color: #0091bd; /* Secondary color */
+    --on-secondary-color: #f5f0e1; /* On secondary color */
+    
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: var(--background-color);
+}
+
